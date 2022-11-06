@@ -1,2 +1,11 @@
-package com.abdullah.springbootrecaptchavalidation.repository;public class EmployeeRepository {
+package com.abdullah.springbootrecaptchavalidation.repository;
+
+import com.abdullah.springbootrecaptchavalidation.entity.EmployeeEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface EmployeeRepository extends JpaRepository<EmployeeEntity, Integer>
+{
+
 }
