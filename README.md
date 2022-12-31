@@ -48,5 +48,3 @@ Abdullah Bakış - abdullahbakis
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-# Acknowledgments
-This project was developed as a learning exercise.
